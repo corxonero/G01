@@ -17,4 +17,14 @@ public class TestSum {
 	 	public void testSum3() {
 	 		assertEquals(6, Sum.sum(2, 2, 2));
 	 	}
+	 	
+	 	@Test
+	 	public void testNeg() {
+	 		assertEquals(8, Sum.sum(2, 2, 2));
+	 	}
+	 	
+	 	@Test
+	 	public void testNumNeg() {
+	 		assertEquals(2, Sum.sum(2, -2, 2));
+	 	}
 }

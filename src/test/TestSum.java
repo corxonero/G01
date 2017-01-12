@@ -12,4 +12,9 @@ public class TestSum {
 	 	public void testSum2() {
 	 		assertEquals(4, Sum.sum(2, 2));
 	 	}
+	 	
+	 	@Test
+	 	public void testSum3() {
+	 		assertEquals(6, Sum.sum(2, 2, 2));
+	 	}
 }
